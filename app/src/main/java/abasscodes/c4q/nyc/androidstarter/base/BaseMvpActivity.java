@@ -29,7 +29,7 @@ public abstract class BaseMvpActivity<T extends BaseContract.Presenter> extends 
      * Override this method to do any additional view initialization (ex: setup RecycleView adapter)
      */
     protected void onViewCreated(Bundle savedInstanceState) {
-
+        //initialize views. rv and stuff should not be null after this is called
     }
 
     @Override
